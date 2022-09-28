@@ -1,6 +1,6 @@
 import React from 'react';
 import reviews from '../../../pages/api/feedback.json';
-import Feedback from './feedback';
+import Feedback from './Feedback';
 
 const Feedbacks = () => {
     return (
