@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 const Service = ({ service }) => {
     const { name, desc, img } = service;
     return (
-        <div className="card w-80 h-72 text-primary shadow-lg hover:shadow-2xl mt-5">
+        <div className="card w-80 h-72 text-primary shadow-lg hover:shadow-2xl mt-5" data-aos="flip-left">
             <figure className="px-10 pt-10">
                 <Image src={img} alt="service" width={74} height={74} />
             </figure>

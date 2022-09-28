@@ -49,6 +49,7 @@ const Projects = () => {
 
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
+                data-aos="zoom-in"
             >
                 <SwiperSlide><Image src={'/carousel-1.png'} alt="carousel" height={335} width={466}></Image></SwiperSlide>
                 <SwiperSlide><Image src={'/carousel-2.png'} alt="carousel" height={335} width={466}></Image></SwiperSlide>
