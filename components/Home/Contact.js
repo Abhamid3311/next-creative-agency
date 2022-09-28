@@ -16,10 +16,10 @@ const Contact = () => {
         <div>
             <div className="hero bg-secondary text-primary">
                 <div className="hero-content flex-col lg:flex-row">
-                    <div className="text-center lg:text-left" data-aos="fade-right">
+                    <div className="text-center  lg:text-left" data-aos="fade-right">
                         <h1 className="text-4xl font-bold">Let us handle your project, professionally.</h1>
 
-                        <p className="py-6 w-96">With well written codes, we build amazing apps for all platforms, mobile and web apps in general.</p>
+                        <p className="py-6 max-w-96">With well written codes, we build amazing apps for all platforms, mobile and web apps in general.</p>
                     </div>
 
 

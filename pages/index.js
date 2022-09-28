@@ -15,6 +15,7 @@ export default function Home() {
         <meta name="description" content="Creative Agency" />
         <meta name="keywords" content="Agency" />
         <link rel="icon" href="/favicon.ico" />
+
       </Head>
 
       <div>
@@ -24,7 +25,6 @@ export default function Home() {
         <Projects />
         <Feedbacks />
         <Contact />
-
       </div>
 
 

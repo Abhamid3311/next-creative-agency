@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import React, { useEffect } from 'react';
+import React from 'react';
 
 const Service = ({ service }) => {
     const { name, desc, img } = service;
