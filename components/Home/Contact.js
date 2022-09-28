@@ -13,8 +13,8 @@ const Contact = () => {
     };
 
     return (
-        <div>
-            <div className="hero bg-secondary text-primary">
+        <div id='contact'>
+            <div className="hero bg-secondary text-primary rounded-t-3xl">
                 <div className="hero-content flex-col lg:flex-row">
                     <div className="text-center  lg:text-left" data-aos="fade-right">
                         <h1 className="text-4xl font-bold">Let us handle your project, professionally.</h1>

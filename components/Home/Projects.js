@@ -29,7 +29,7 @@ const Projects = () => {
                     clickable: true,
                 }}
                 breakpoints={{
-                    440: {
+                    240: {
                         slidesPerView: 1,
                         spaceBetween: 20,
                     },

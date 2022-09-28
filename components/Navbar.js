@@ -7,8 +7,9 @@ const Navbar = () => {
         <li><Link href={'/'}><a>Home</a></Link></li>
         <li><Link href={'/portfolio'}><a>Our Portfolio</a></Link></li>
         <li><Link href={'/team'}><a>Our Team</a></Link></li>
+        <li><Link href={'/dashboard'}><a>Dashboard</a></Link></li>
         <li><Link href={'/contact'}><a>Contact Us</a></Link></li>
-        <li><Link href={'/register/login'}><button className='btn btn-primary text-white ml-5'>Login</button></Link></li>
+        <li><Link href={'/register/login'}><button className='btn btn-primary text-white lg:ml-5'>Login</button></Link></li>
     </>
 
     return (
@@ -29,7 +30,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal p-0">
+                    <ul className="menu menu-horizontal p-0 text-lg">
                         {itemMenus}
                     </ul>
                 </div>
