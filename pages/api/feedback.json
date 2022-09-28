@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Nash Patrik",
+        "designation": "CEO, Manpol",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas. Feugiat ",
+        "img": "/customer-1.png"
+    },
+    {
+        "id": 2,
+        "name": "Miriam Barron",
+        "designation": "CEO, Danpal",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas. Feugiat ",
+        "img": "/customer-2.png"
+    },
+    {
+        "id": 3,
+        "name": "Moren Harris",
+        "designation": "Manager, Digital Aided School",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas. Feugiat ",
+        "img": "/customer-3.png"
+    }
+]

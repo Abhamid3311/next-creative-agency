@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Banner from '../components/Home/Banner'
+import Feedbacks from '../components/Home/feedback/Feedbacks'
 import Partner from '../components/Home/partner'
 import Projects from '../components/Home/projects'
 import Services from '../components/Home/Service/Services'
@@ -21,6 +22,7 @@ export default function Home() {
         <Partner />
         <Services />
         <Projects />
+        <Feedbacks />
 
       </div>
 
