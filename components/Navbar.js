@@ -9,8 +9,8 @@ const Navbar = () => {
         <li><Link href={'/team'}><a>Our Team</a></Link></li>
         <li><Link href={'/contact'}><a>Contact Us</a></Link></li>
         <li><Link href={'/register/login'}><button className='btn btn-primary text-white ml-5'>Login</button></Link></li>
-
     </>
+
     return (
         <div>
             <div className="navbar bg-secondary px-10">
@@ -24,15 +24,15 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <a>
-                        <Image src="/logos/logo.png" width={150} height={47} alt="" />
+                        <Image src="/logos/logo.png" width={150} height={47} alt="logo" />
                     </a>
                 </div>
+
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
                         {itemMenus}
                     </ul>
                 </div>
-
             </div>
         </div>
     );
